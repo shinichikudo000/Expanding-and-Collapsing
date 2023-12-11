@@ -1,7 +1,7 @@
 import { Dispatch, createContext, useReducer } from 'react'
 import { questions } from './content'
 import './App.css'
-import QuestionContainer from './questionContainer'
+import QuestionContainer from './QuestionContainer'
 
 export interface ContextProps {
   dispatch: Dispatch<Action>,
